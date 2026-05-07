@@ -1,4 +1,4 @@
-# MiniX – Modern Fashion E-Commerce Platform 🛍️
+# NexCart – Modern Fashion E-Commerce Platform 🛍️
 
 A full-stack MERN e-commerce application with modern UI, admin dashboard, secure payments, and complete order management.
 
@@ -255,15 +255,3 @@ MiniX/
 ## 🤝 Contributing
 
 Pull requests are welcome! For major changes, please open an issue first to discuss what you would like to change.
-
-## 📄 License
-
-MIT License - feel free to use this project for learning or commercial purposes.
-
-## ⭐ Support
-
-If you find this project helpful, please give it a star on GitHub!
-
----
-
-**Developed with ❤️ by [Aman](https://github.com/Aman-pixels)**
