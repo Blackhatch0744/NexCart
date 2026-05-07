@@ -1,0 +1,37 @@
+
+/* =======================
+   CUSTOM TOAST STYLES
+======================= */
+.glass-toast {
+  background: rgba(0, 0, 0, 0.75) !important; /* Semi-transparent black */
+  backdrop-filter: blur(16px) !important; /* blurry */
+  -webkit-backdrop-filter: blur(16px) !important;
+  border: 1px solid rgba(255, 255, 255, 0.2) !important; /* light white border */
+  border-radius: 16px !important;
+  box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37) !important;
+  color: #fff !important; /* White text */
+  font-family: 'Inter', sans-serif !important;
+  padding: 16px !important;
+  /* Override default box-shadow if needed */
+}
+
+/* Customize the body of the toast */
+.Toastify__toast-body {
+  font-weight: 500;
+  font-size: 0.95rem;
+  color: #ffffff;
+}
+
+/* Customize progress bar */
+.Toastify__progress-bar {
+  background: rgba(255, 255, 255, 0.8) !important; 
+}
+
+/* Customize icons */
+.Toastify__close-button {
+  color: rgba(255, 255, 255, 0.7) !important;
+}
+
+.Toastify__toast-icon svg {
+  fill: #fff !important; 
+}

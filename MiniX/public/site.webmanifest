@@ -1,0 +1,18 @@
+{
+  "name": "MiniX – Premium Fashion",
+  "short_name": "MiniX",
+  "description": "Shop premium streetwear and fashion at MiniX.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#000000",
+  "theme_color": "#000000",
+  "lang": "en",
+  "icons": [
+    {
+      "src": "/favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}

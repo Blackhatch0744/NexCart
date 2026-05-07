@@ -1,0 +1,18 @@
+[dotenv@17.2.3] injecting env (9) from .env -- tip: 🔄 add secrets lifecycle management: https://dotenvx.com/ops
+A:\PROJECT -MiniX\backend\Controllers\googleAuthController.js:8
+const client = new OAuth2Client(process.env.GOOGLE_CLIENT_ID);
+               ^
+
+ReferenceError: OAuth2Client is not defined
+    at Object.<anonymous> (A:\PROJECT -MiniX\backend\Controllers\googleAuthController.js:8:16)
+    at Module._compile (node:internal/modules/cjs/loader:1730:14)
+    at Object..js (node:internal/modules/cjs/loader:1895:10)
+    at Module.load (node:internal/modules/cjs/loader:1465:32)
+    at Function._load (node:internal/modules/cjs/loader:1282:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:235:24)
+    at Module.require (node:internal/modules/cjs/loader:1487:12)
+    at require (node:internal/modules/helpers:135:16)
+    at Object.<anonymous> (A:\PROJECT -MiniX\backend\Routes\authRoutes.js:5:24)
+
+Node.js v22.15.0

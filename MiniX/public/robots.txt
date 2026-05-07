@@ -1,0 +1,24 @@
+User-agent: *
+Allow: /
+Allow: /shop
+Allow: /about
+Allow: /contact
+Allow: /product/
+
+# Private / user-only routes — no SEO value
+Disallow: /admin/
+Disallow: /cart
+Disallow: /checkout
+Disallow: /order-success
+Disallow: /orders
+Disallow: /orders/
+Disallow: /payment
+Disallow: /payments
+Disallow: /addresses
+Disallow: /edit-profile
+Disallow: /profile
+Disallow: /wishlist
+Disallow: /reset-password/
+Disallow: /forgot-password
+
+Sitemap: https://mini-x-pearl.vercel.app/sitemap.xml
