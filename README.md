@@ -119,7 +119,7 @@ VITE_API_BASE_URL=https://your-backend-api-url.com
 
 #### 2. Install Dependencies
 ```bash
-cd MiniX
+cd NexCart
 npm install
 ```
 
@@ -146,8 +146,8 @@ npm run build
 
 ### 1. Clone Repository
 ```bash
-git clone https://github.com/Aman-pixels/MiniX.git
-cd MiniX
+git clone https://github.com/Blackhatch0744/NexCart
+cd NexCart
 ```
 
 ### 2. Setup Backend
@@ -163,7 +163,7 @@ Backend runs on `http://localhost:5000`
 
 ### 3. Setup Frontend
 ```bash
-cd MiniX
+cd NexCart
 npm install
 cp .env.example .env
 # Edit .env with your credentials
@@ -196,8 +196,8 @@ Frontend runs on `http://localhost:5173`
 ## 📁 Project Structure
 
 ```
-MiniX/
-├── MiniX/                    # Frontend
+NexCart/
+├── NexCart/                    # Frontend
 │   ├── src/
 │   │   ├── Components/      # Reusable components
 │   │   ├── context/        # React context providers
