@@ -1,9 +1,9 @@
 {
   "scripts": {
     "dev": "concurrently \"npm run client\" \"npm run server\"",
-    "client": "npm run dev --prefix MiniX",
+    "client": "npm run dev --prefix NexCart",
     "server": "npm run dev --prefix backend",
-    "build": "cd MiniX && npm install && npm run build"
+    "build": "cd NexCart && npm install && npm run build"
   },
   "dependencies": {
     "@emailjs/browser": "^4.4.1",
