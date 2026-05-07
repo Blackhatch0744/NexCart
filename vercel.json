@@ -7,7 +7,7 @@
     },
     {
       "source": "/(.*)",
-      "destination": "/MiniX/dist/index.html"
+      "destination": "/NexCart/dist/index.html"
     }
   ]
 }
